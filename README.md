@@ -24,7 +24,11 @@ Repositorio de apuntes del módulo **Programación Multimedia y Dispositivos Mó
 | 2.1 | Qué es View Binding | [02-1-que-es-view-binding.md](UT02/02-1-que-es-view-binding.md) |
 | 2.2 | Activación de View Binding | [02-2-activacion-view-binding.md](UT02/02-2-activacion-view-binding.md) |
 | 2.3 | Uso de View Binding | [02-3-uso-view-binding.md](UT02/02-3-uso-view-binding.md) |
-| 3 | Notificaciones y diálogos | *Próximamente* |
+| **3** | **Notificaciones y diálogos** | |
+| 3.1 | Toasts | [03-1-toasts.md](UT02/03-1-toasts.md) |
+| 3.2 | Snackbars | [03-2-snackbars.md](UT02/03-2-snackbars.md) |
+| 3.3 | Notificaciones: canal de notificaciones · crear y mostrar notificaciones | [03-3-notificaciones.md](UT02/03-3-notificaciones.md) |
+| 3.4 | Diálogos: diálogos con DialogFragment · diálogos y callbacks | [03-4-dialogos.md](UT02/03-4-dialogos.md) |
 | 4 | Navegación entre actividades: Intents y Menús | *Próximamente* |
 | 5 | El componente RecyclerView | *Próximamente* |
 
@@ -40,6 +44,10 @@ AprendeAndroid2/
     ├── 02-1-que-es-view-binding.md
     ├── 02-2-activacion-view-binding.md
     ├── 02-3-uso-view-binding.md
+    ├── 03-1-toasts.md
+    ├── 03-2-snackbars.md
+    ├── 03-3-notificaciones.md
+    ├── 03-4-dialogos.md
     └── img/
         └── editor-layout-android-studio.png
 ```
@@ -84,10 +92,20 @@ En esta sección encontrarás aquellos enlaces de interés necesarios para ampli
 
 ### 3. Notificaciones y diálogos
 
+- **Página oficial Desarrolladores de Android. Descripción general de los avisos (Toast).** (developer.android.com)
+  https://developer.android.com/guide/topics/ui/notifiers/toasts?hl=es-419
+- **Página oficial Desarrolladores de Android. Cómo crear y mostrar un mensaje emergente (Snackbar).** (developer.android.com)
+  https://developer.android.com/develop/ui/views/notifications/snackbar/showing?hl=es-419
 - **Página oficial Desarrolladores de Android. Creación de notificaciones.** (developer.android.com)
   https://developer.android.com/develop/ui/views/notifications/build-notification?hl=es-419
+- **Página oficial Desarrolladores de Android. Cómo crear y administrar canales de notificaciones.** (developer.android.com)
+  https://developer.android.com/develop/ui/views/notifications/channels?hl=es-419
+- **Página oficial Desarrolladores de Android. Permiso de tiempo de ejecución para notificaciones.** (developer.android.com)
+  https://developer.android.com/develop/ui/views/notifications/notification-permission?hl=es-419
 - **Página oficial Desarrolladores de Android. Diálogos.** (developer.android.com)
   https://developer.android.com/develop/ui/views/components/dialogs?hl=es-419
+- **Página oficial Desarrolladores de Android. Cómo comunicarse con fragmentos (Fragment Result API).** (developer.android.com)
+  https://developer.android.com/guide/fragments/communicate?hl=es-419
 
 ### 4. Navegación entre actividades: Intents y Menús
 

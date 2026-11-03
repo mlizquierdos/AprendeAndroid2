@@ -412,4 +412,4 @@ class MainActivity : AppCompatActivity() {
 
 ---
 
-⬅️ [2.2 Activación de View Binding](02-2-activacion-view-binding.md) · 🏠 [Índice](../README.md) · ➡️ 3. Notificaciones y diálogos *(próximamente)*
+⬅️ [2.2 Activación de View Binding](02-2-activacion-view-binding.md) · 🏠 [Índice](../README.md) · ➡️ [3.1 Toasts](03-1-toasts.md)
