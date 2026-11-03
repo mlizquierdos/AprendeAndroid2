@@ -20,7 +20,10 @@ Repositorio de apuntes del módulo **Programación Multimedia y Dispositivos Mó
 | 1.1 | El editor de Layouts de Android Studio | [01-1-editor-de-layouts.md](UT02/01-1-editor-de-layouts.md) |
 | 1.2 | Diseño de Layouts | [01-2-diseno-de-layouts.md](UT02/01-2-diseno-de-layouts.md) |
 | 1.3 | Elementos de la interfaz | [01-3-elementos-de-la-interfaz.md](UT02/01-3-elementos-de-la-interfaz.md) |
-| 2 | View Binding: Vinculación de vistas | *Próximamente* |
+| **2** | **View Binding: Vinculación de vistas** | |
+| 2.1 | Qué es View Binding | [02-1-que-es-view-binding.md](UT02/02-1-que-es-view-binding.md) |
+| 2.2 | Activación de View Binding | [02-2-activacion-view-binding.md](UT02/02-2-activacion-view-binding.md) |
+| 2.3 | Uso de View Binding | [02-3-uso-view-binding.md](UT02/02-3-uso-view-binding.md) |
 | 3 | Notificaciones y diálogos | *Próximamente* |
 | 4 | Navegación entre actividades: Intents y Menús | *Próximamente* |
 | 5 | El componente RecyclerView | *Próximamente* |
@@ -34,6 +37,9 @@ AprendeAndroid2/
     ├── 01-1-editor-de-layouts.md
     ├── 01-2-diseno-de-layouts.md
     ├── 01-3-elementos-de-la-interfaz.md
+    ├── 02-1-que-es-view-binding.md
+    ├── 02-2-activacion-view-binding.md
+    ├── 02-3-uso-view-binding.md
     └── img/
         └── editor-layout-android-studio.png
 ```
@@ -71,6 +77,10 @@ En esta sección encontrarás aquellos enlaces de interés necesarios para ampli
 
 - **Página oficial Desarrolladores de Android. Vinculación de vistas.** (developer.android.com)
   https://developer.android.com/topic/libraries/view-binding?hl=es-419
+- **Página oficial Desarrolladores de Android. Cómo migrar de Kotlin synthetics a la vinculación de vistas de Jetpack.** (developer.android.com)
+  https://developer.android.com/topic/libraries/view-binding/migration?hl=es-419
+- **Página oficial Desarrolladores de Android. Biblioteca de vinculación de datos (Data Binding).** (developer.android.com)
+  https://developer.android.com/topic/libraries/data-binding?hl=es-419
 
 ### 3. Notificaciones y diálogos
 

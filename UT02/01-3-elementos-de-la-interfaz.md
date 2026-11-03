@@ -1064,4 +1064,4 @@ Crea una aplicación `InscripcionCursos`: un formulario de inscripción a un cur
 
 ---
 
-⬅️ [1.2 Diseño de Layouts](01-2-diseno-de-layouts.md) · 🏠 [Índice](../README.md) · ➡️ 2. View Binding *(próximamente)*
+⬅️ [1.2 Diseño de Layouts](01-2-diseno-de-layouts.md) · 🏠 [Índice](../README.md) · ➡️ [2.1 Qué es View Binding](02-1-que-es-view-binding.md)
