@@ -504,4 +504,4 @@ class FechaDialog : DialogFragment(), DatePickerDialog.OnDateSetListener {
 
 ---
 
-⬅️ [3.3 Notificaciones](03-3-notificaciones.md) · 🏠 [Índice](../README.md) · ➡️ 4. Navegación entre actividades: Intents y Menús *(próximamente)*
+⬅️ [3.3 Notificaciones](03-3-notificaciones.md) · 🏠 [Índice](../README.md) · ➡️ [4.1 ¿Cómo definimos un menú?](04-1-definir-menu.md)
