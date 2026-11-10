@@ -29,8 +29,16 @@ Repositorio de apuntes del módulo **Programación Multimedia y Dispositivos Mó
 | 3.2 | Snackbars | [03-2-snackbars.md](UT02/03-2-snackbars.md) |
 | 3.3 | Notificaciones: canal de notificaciones · crear y mostrar notificaciones | [03-3-notificaciones.md](UT02/03-3-notificaciones.md) |
 | 3.4 | Diálogos: diálogos con DialogFragment · diálogos y callbacks | [03-4-dialogos.md](UT02/03-4-dialogos.md) |
-| 4 | Navegación entre actividades: Intents y Menús | *Próximamente* |
-| 5 | El componente RecyclerView | *Próximamente* |
+| **4** | **Navegación entre actividades: Intents y Menús** | |
+| 4.1 | ¿Cómo definimos un menú? | [04-1-definir-menu.md](UT02/04-1-definir-menu.md) |
+| 4.2 | Añadiendo un menú a una actividad · gestionando los clics en el menú | [04-2-menu-en-actividad.md](UT02/04-2-menu-en-actividad.md) |
+| 4.3 | Uso de menús comunes a varias actividades · Intents y mejoras en el menú | [04-3-menus-comunes-intents.md](UT02/04-3-menus-comunes-intents.md) |
+| 4.4 | Mejorando el comportamiento de las Intents · menús contextuales | [04-4-intents-y-menus-contextuales.md](UT02/04-4-intents-y-menus-contextuales.md) |
+| **5** | **El componente RecyclerView** | |
+| 5.1 | Listas con RecyclerView | [05-1-listas-recyclerview.md](UT02/05-1-listas-recyclerview.md) |
+| 5.2 | Elementos para crear un RecyclerView | [05-2-elementos-recyclerview.md](UT02/05-2-elementos-recyclerview.md) |
+| 5.3 | Creación del adaptador: la clase ViewHolder · la clase Adapter · creación del RecyclerView | [05-3-creacion-adaptador.md](UT02/05-3-creacion-adaptador.md) |
+| 5.4 | Gestión de eventos en el RecyclerView · mediante callbacks | [05-4-eventos-recyclerview.md](UT02/05-4-eventos-recyclerview.md) |
 
 ### Estructura del repositorio
 
@@ -48,8 +56,19 @@ AprendeAndroid2/
     ├── 03-2-snackbars.md
     ├── 03-3-notificaciones.md
     ├── 03-4-dialogos.md
+    ├── 04-1-definir-menu.md
+    ├── 04-2-menu-en-actividad.md
+    ├── 04-3-menus-comunes-intents.md
+    ├── 04-4-intents-y-menus-contextuales.md
+    ├── 05-1-listas-recyclerview.md
+    ├── 05-2-elementos-recyclerview.md
+    ├── 05-3-creacion-adaptador.md
+    ├── 05-4-eventos-recyclerview.md
     └── img/
-        └── editor-layout-android-studio.png
+        ├── editor-layout-android-studio.png
+        ├── recyclerview-componentes.jpg
+        ├── recyclerview-metodos-adaptador.jpg
+        └── recyclerview-reciclado.jpg
 ```
 
 > **Requisitos:** Android Studio (versión estable actual), Kotlin y el sistema de vistas basado en **XML** (no Jetpack Compose).
@@ -109,14 +128,30 @@ En esta sección encontrarás aquellos enlaces de interés necesarios para ampli
 
 ### 4. Navegación entre actividades: Intents y Menús
 
-- **Página oficial Desarrolladores de Android. Intents y filtros de intents.** (developer.android.com)
-  https://developer.android.com/guide/components/intents-filters?hl=es-419
 - **Página oficial Desarrolladores de Android. Cómo agregar menús.** (developer.android.com)
   https://developer.android.com/guide/topics/ui/menus?hl=es-419
+- **Página oficial Desarrolladores de Android. Recurso de menú.** (developer.android.com)
+  https://developer.android.com/guide/topics/resources/menu-resource?hl=es-419
+- **Página oficial Desarrolladores de Android. Cómo agregar y administrar acciones (barra de la app).** (developer.android.com)
+  https://developer.android.com/training/appbar/actions?hl=es-419
+- **Página oficial Desarrolladores de Android. Intents y filtros de intents.** (developer.android.com)
+  https://developer.android.com/guide/components/intents-filters?hl=es-419
+- **Página oficial Desarrolladores de Android. Intents comunes.** (developer.android.com)
+  https://developer.android.com/guide/components/intents-common?hl=es-419
+- **Página oficial Desarrolladores de Android. Tareas y la pila de actividades.** (developer.android.com)
+  https://developer.android.com/guide/components/activities/tasks-and-back-stack?hl=es-419
+- **Página oficial Desarrolladores de Android. Cómo obtener el resultado de una actividad.** (developer.android.com)
+  https://developer.android.com/training/basics/intents/result?hl=es-419
 
 ### 5. El componente RecyclerView
 
 - **Página oficial Desarrolladores de Android. Cómo crear listas dinámicas con RecyclerView.** (developer.android.com)
   https://developer.android.com/develop/ui/views/layout/recyclerview?hl=es-419
+- **Página oficial Desarrolladores de Android. Referencia de RecyclerView.Adapter** (en inglés). (developer.android.com)
+  https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView.Adapter
+- **Página oficial Desarrolladores de Android. ListAdapter y DiffUtil** (en inglés), para ir más allá. (developer.android.com)
+  https://developer.android.com/reference/androidx/recyclerview/widget/ListAdapter
+- **Kotlin. Funciones de orden superior y lambdas** (en inglés). (kotlinlang.org)
+  https://kotlinlang.org/docs/lambdas.html
 
 > 💡 Si alguna página no está disponible en español, cambia `?hl=es-419` por `?hl=es` o elimínalo para ver la versión original en inglés, que suele estar más actualizada.
