@@ -124,7 +124,7 @@ class MainActivity : AppCompatActivity() {
 - El `if` es necesario porque nuestra API mínima es la 24, y `NotificationChannel` no existe antes de la 26.
 - **Crear un canal que ya existe no hace nada**, así que se puede llamar a `crearCanalNotificaciones()` en cada `onCreate()` sin problema.
 - El **nombre** y la **descripción** los ve el usuario en Ajustes: deben estar en `strings.xml`.
-- Una vez creado el canal, **la app ya no puede cambiar su importancia**: ahora es decisión del usuario. Si necesitas otra importancia durante las pruebas, desinstala la app o usa otro id de canal.
+- Una vez creado el canal, **la importancia la controla el usuario**. La app **no puede subirla**, y **bajarla** solo funciona si el usuario no ha modificado antes el canal en Ajustes. El nombre y la descripción sí se pueden actualizar. Si necesitas otra importancia durante las pruebas, desinstala la app o usa otro id de canal.
 
 > 💡 En apps reales, los canales suelen crearse en una clase que hereda de `Application`, que se ejecuta una sola vez al arrancar la app. En nuestros ejemplos basta con la actividad principal.
 
